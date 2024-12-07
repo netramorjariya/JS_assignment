@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Task 1-Write a JavaScript program to check if a number is positive, negative, or zero using an if-else statement. 
+        let a = -40
+
+        if(a>0)
+        {
+        document.write('<br> Number is positive');
+        } 
+        else if (a<0){
+            document.write('<br> Number is nagative');
+        }
+        else{
+            document.write('<br> Number is zero');   
+        } 
+
+        document.write('<br> ');
+        document.write('<br> ');
+        
+        
+//Task 2-Create a JavaScript program using a switch statement to display the day of the week based on the user input (e.g., 1 for Monday, 2 for Tuesday, etc.)
+
+        let choice = parseInt(prompt("Enter your choice.."))
+
+        switch(choice)
+        {
+            case 1:
+                document.write('<br> Today is Monday...');
+                break
+            case 2:
+                document.write('<br> Today is Tuesday..');
+                break
+            case 3:
+                document.write('<br> Today is Wednesday..');
+                break
+            case 4:
+                document.write('<br> Today is Thursday..');
+                break
+            case 5:
+                document.write('<br> Today is Friday..');
+                break
+            case 6:
+                document.write('<br> Today is Saturday...');
+                break
+            case 7:
+                document.write('<br> Yeyyyyy Today isHoliday...........');
+                break
+            default: document.write('<br> Invelid Input.....');
+                break
+        }
+    </script>
+</body>
+</html>

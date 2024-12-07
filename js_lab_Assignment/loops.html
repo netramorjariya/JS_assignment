@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Task 1-Write a JavaScript program using a for loop to print numbers from 1 to 10
+
+        for(let i = 0; i<=10;i++)
+    {
+        document.write('<br> Number is: ',i);
+        
+    }
+
+//Task 2-Create a JavaScript program that uses a while loop to sum all even numbers between 1 and 20. 
+
+    let sum = 0
+    let number = 1
+
+    while(number<=20){
+        if(number % 2 == 0){
+            sum += number
+        }
+        number++
+    }
+    document.write('<br> sum of even number between 1 to 20 is: ',sum);
+
+//Task 3-Write a do-while loop that continues to ask the user for input until they enter a number greater than 10.
+
+let num;
+do{
+    num = parseInt(prompt("Enter a number greater then 10: "),10);
+
+    if(num <= 10){
+        document.write('<br> The number is not greater then 10.. Plz try again....');
+        
+    }
+}while(num <= 10);
+
+document.write('<br> Thank you!! You enterd '+ num);
+
+
+    </script>
+</body>
+</html>
